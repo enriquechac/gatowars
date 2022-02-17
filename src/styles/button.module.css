@@ -1,0 +1,22 @@
+
+.btngrad {background-image: linear-gradient(to right, #D31027 0%, #EA384D  51%, #D31027  100%)}
+.btngrad {
+    margin: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    outline: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border: none;
+    border-radius: 10px;
+    display: block;
+}
+
+.btngrad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    transform: scale(1.01);
+    text-decoration: none;
+}
