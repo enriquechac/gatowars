@@ -1,8 +1,16 @@
 .container {
     margin: auto;
     margin-top: 30px;
-    width: 80%;
+    width: 85%;
     border: 1px solid white;
+    padding: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.leftPanelContainer {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
 }

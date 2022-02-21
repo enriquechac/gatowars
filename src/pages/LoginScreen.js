@@ -1,11 +1,10 @@
 import React from 'react';
+import { Header } from '../components/Header';
 
 export const LoginScreen = () => {
-    return (
-  
-        <div>
-            <h1>Login</h1>
-        </div>
-
-    );
+  return (
+    <>
+      <Header />
+    </>
+  );
 };

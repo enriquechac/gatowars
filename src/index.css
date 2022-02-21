@@ -14,3 +14,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.flexColum {
+  display: flex;
+  flex-direction: column;
+}

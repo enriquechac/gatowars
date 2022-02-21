@@ -6,6 +6,6 @@ export const LoadingScreen = () => (
     <div className={styles.container}>
         <h1 className={styles.logo}>😾</h1>
         <h1 className={styles.title}>GatoWars</h1>
-        <p>cargando...</p>
+        <p>Cargando...</p>
     </div>
 )
